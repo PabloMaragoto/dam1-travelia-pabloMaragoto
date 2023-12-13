@@ -1,0 +1,24 @@
+html{
+    height: 100%;
+}
+body{
+    height : 100%;
+}
+main{
+    background-color: #d9d9d9;
+}
+
+header{
+    background-color: #F42d59;
+}
+
+footer{
+    background-color: #F42d59; 
+}
+
+/*@media only screen (min-width= 285px) and (max-width = 769px){
+    
+}
+@media only screen (min-width= 760px){
+
+}*/
