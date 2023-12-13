@@ -7,16 +7,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/Style.css">
-    <link rel="shortcut icon" href="./Assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>Travelia</title>
 </head>
     <body>
         <header>
-            <a href="index.html"><p>Travelia</p></a>
-            <img src="./Assets/circles.png" alt="logotipe_web">
+            <a href="index.html"><h1>Travelia</h1></a>
+            
         </header>
         <main>
-            <section>
+            <section id = "seccionUno">
                 <article>
                     <img src="./img/tours.png" alt="vector_draw_of_tours_logo">
                     <h2>TOURS</h2>
@@ -38,10 +38,10 @@
                     <p>You can choose form a wide range of support options to contact us.</p>
                 </article>
             </section>
-            <section>
+            <section id = "seccionDos">
                 <img src="./img/sassolungo-mountain-italy.jpg" alt="image_of_sassolungo_mountain_in_italy">
             </section>
-            <section>
+            <section id = "seccionTres">
                 <article>
                     <h2>CONTACT US</h2>
                     <form action="support.php" method="post">
@@ -58,16 +58,20 @@
                         <br>
                         <br>
                         <label for="gender">Gender</label>
+                        
                         <input type="radio" name="gender" id="gender" value="Male">
                         <input type="radio" name="gender" id="gender" value="Female">
-                        <input type="radio" name="gender" id="gender" value="Non binary">
+                                <input type="radio" name="gender" id="gender" value="Non binary">
+                        
+                        
                         <br>
                         <br>
                         <label for="comment">Comments</label>
-                        <input type="textfield" name="comment" id="comment" rows="8">
+                        <br>
+                        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
                         <br>
                         <br>
-                        <input type="submit" value="SUBMIT">
+                        <input type="submit"  value="SUBMIT" id="submit ">
                     </form>
                 </article>
             </section>
@@ -80,6 +84,7 @@
                 <li><a href="https://www.tiktok.com/es/" target="_blank"><img src="./img/tiktok.png" alt="tiktok_logo"></a></li>
             </ul>
             <p>Images by rowpixel.com, juicy_fish and wirestock on <a href="http://www.freepik.es/" target="_blank" rel="noopener noreferrer">Freepik</a></p>
+            <p>(c) 2023 Pablo Maragoto Díaz</p>
         </footer>
     </body>
 </html>
